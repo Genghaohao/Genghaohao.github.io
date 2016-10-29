@@ -182,7 +182,7 @@ start_game_btn.onclick = function(){
 	//记录成绩的变量
 	var number = 0;
 	//倒计时的变量
-	var countNumber = 60;
+	var countNumber = 10;
 	//时候开始倒计时的变量，开始数钱的时候（向上扫动的时候，变为true）
 	var beginCount = false;
 	var countNumberTimer = setInterval(function(){
